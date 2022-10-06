@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, #85C1E9,#AED6F1,#D2B4DE,#E8DAEF,#F9E79F,#F7DC6F);}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-family: Courier New;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a class="active" href="{{ url_for('home') }}"> Home</a> 
+  <a href="{{ url_for('Page1') }}"> Page1 </a> 
+  <a href="{{ url_for('Page2') }}"> Page2</a>
+  <a href="{{ url_for('Page3') }}"> Page3</a>
+</div>
+
+<div>
+<center>
+<h2 style="font-family:'Courier New'"><br><br><br><br><br><br><br><br><br><br>WELCOME TO EDUCATION IN THE PHILIPPINES</h2>
+  </center>
+</div>
+</div>
+ {% block content %}
+    {% endblock %}
+</body>
+</html>

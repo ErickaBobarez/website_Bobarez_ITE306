@@ -1,0 +1,138 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+}
+table{
+	background-color: palegoldenrod;
+	background-image: url(b1.png);
+	width: 100%;
+	border: 0;
+}
+#head{
+	background-color: palevioletred;
+	text-align: center;
+	height: 80px;
+	font-size: 40px;
+	color: white;
+	padding: 40px;
+}
+h1{
+	margin: 0;
+	text-align: center;
+	background-color: darkgoldenrod;
+}
+h2{
+	margin: 0;
+	text-align: center;
+	letter-spacing: 5px;
+	background-color: goldenrod;
+}
+
+#navi{
+	float: right;
+	width: 25%;
+	height: 380px;
+	background-color: lavender;
+	padding: 2.5%;
+}
+#content{
+	float: left;
+	width: 65%;
+	background-color: hotpinks;
+	color: black;
+	height: 380px;
+	padding: 2.5%;
+}
+#footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 11px;
+}
+
+#head2{
+	background-color: palevioletred;
+	background-image: url(b2.png);
+	text-align: center;
+	height: 80px;
+	font-size: 40px;
+	color: black;
+	padding: 40px;
+}
+h3{
+	margin: 0;
+	background-color: palegoldenrod;
+}
+h4{
+	margin: 5;
+	text-align: center;
+	text-decoration-color: black;
+
+}
+#sec{
+	width: 100%;
+	height: 380px;
+}
+#navi2{
+	float: left;
+	width: 25%;
+	height: 380px;
+	background: goldenrod;
+	background-image: url(b1.png);
+	background-position: right;
+	padding: 2.5%;
+}
+#content2{
+	float: left;
+	width: 800px;
+	background-color: white;
+	background-image: url(b3.1.png);
+	background-position: left;
+	color: black;
+	height: 380px;
+	padding: 2.5%;
+}
+#footer2{
+	background-color: black;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 18px
+
+}
+header{
+	background-color: palevioletred;
+	background-image: url(b2.png);
+	text-align: center;
+	height: 80px;
+	font-size: 40px;
+	color: black;
+	padding: 40px;
+}
+h5{
+	margin: 0;
+	text-align: center;
+	background-color: darkgoldenrod;
+}
+section{
+	width: 100px;
+	height: 380px;
+}
+nav{
+	float: right;
+	width: 40px;
+	height: 100px;
+	background-color: lavender;
+	background-blend-mode: darken;
+	padding: 2.5%;
+}
+content{
+	float: left;
+	width: 1000%;
+	background-color: white;
+	background-image: url(b3.png);
+	color: black;
+	height: 380px;
+	padding: 2.5%;
+}
